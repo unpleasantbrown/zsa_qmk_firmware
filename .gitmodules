@@ -28,6 +28,6 @@
 	branch = release/v8.2
 
 [submodule "modules/zsa"]
-	path = modules/zsa
-	url = https://github.com/zsa/qmk_modules.git
-	branch = main
+    path = modules/zsa
+    url = https://github.com/zsa/qmk_modules.git
+    branch = main

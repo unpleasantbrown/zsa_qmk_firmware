@@ -465,7 +465,7 @@ void dance_space_finished(tap_dance_state_t *state, void *user_data) {
 
     case HOLD2:
     case HOLD2_INTERRUPTED:
-        layer_on(_WINMOVE);
+        register_code16(KC_SPACE);  break;
         break;
 
     default:
